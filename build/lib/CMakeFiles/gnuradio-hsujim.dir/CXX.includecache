@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/hsujim/api.h
+gnuradio/attributes.h
+-
+
+../include/hsujim/my_csv.h
+hsujim/api.h
+-
+gnuradio/block.h
+-
+
+/home/hsujim/Desktop/workarea/gr-hsujim/lib/my_csv_impl.cc
+config.h
+/home/hsujim/Desktop/workarea/gr-hsujim/lib/config.h
+gnuradio/io_signature.h
+-
+my_csv_impl.h
+/home/hsujim/Desktop/workarea/gr-hsujim/lib/my_csv_impl.h
+fstream
+-
+iostream
+-
+string
+-
+
+/home/hsujim/Desktop/workarea/gr-hsujim/lib/my_csv_impl.h
+hsujim/my_csv.h
+-
+

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="classgr_1_1hsujim_1_1my__csv" kind="class"><name>gr::hsujim::my_csv</name>
+    <member refid="classgr_1_1hsujim_1_1my__csv_1a30f13ccf4056eeea4cb915f21626e6a8" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1hsujim_1_1my__csv_1a03d0ee590c9190e8a2b913d25df31b61" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1hsujim_1_1my__csv_1ab952818386238311085a3bc3857758a3" kind="function"><name>set_path</name></member>
+    <member refid="classgr_1_1hsujim_1_1my__csv_1a36dc52b549066244ea3e7e4666e0cb81" kind="function"><name>path</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1hsujim" kind="namespace"><name>gr::hsujim</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a7d61da8a8b49edc059c17b6fa2214af3" kind="define"><name>HSUJIM_API</name></member>
+  </compound>
+  <compound refid="my__csv_8h" kind="file"><name>my_csv.h</name>
+  </compound>
+  <compound refid="dir_e43008455c11cb87f1260e7fb7e7bda2" kind="dir"><name>hsujim</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="classgr_1_1hsujim_1_1my__csv" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::hsujim::my_csv</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1hsujim_1_1my__csv__impl" prot="public" virt="non-virtual">gr::hsujim::my_csv_impl</derivedcompoundref>
+    <includes refid="my__csv_8h" local="no">my_csv.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1hsujim_1_1my__csv_1a30f13ccf4056eeea4cb915f21626e6a8" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1hsujim_1_1my__csv" kindref="compound">my_csv</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;my_csv&gt; gr::hsujim::my_csv::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/hsujim/Desktop/workarea/gr-hsujim/include/hsujim/my_csv.h" line="38" column="33" bodyfile="/home/hsujim/Desktop/workarea/gr-hsujim/include/hsujim/my_csv.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1hsujim_1_1my__csv_1a03d0ee590c9190e8a2b913d25df31b61" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1hsujim_1_1my__csv_1a30f13ccf4056eeea4cb915f21626e6a8" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::hsujim::my_csv::make</definition>
+        <argsstring>(int path)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1hsujim_1_1my__csv" kindref="compound">hsujim::my_csv</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1hsujim_1_1my__csv" kindref="compound">hsujim::my_csv</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1hsujim_1_1my__csv_1a03d0ee590c9190e8a2b913d25df31b61" kindref="member">hsujim::my_csv::make</ref> is the public interface for creating new instances. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/hsujim/Desktop/workarea/gr-hsujim/include/hsujim/my_csv.h" line="48" column="19"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1hsujim_1_1my__csv_1ab952818386238311085a3bc3857758a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::hsujim::my_csv::set_path</definition>
+        <argsstring>(int path)=0</argsstring>
+        <name>set_path</name>
+        <reimplementedby refid="classgr_1_1hsujim_1_1my__csv__impl_1acea54e845d847ade321c6f819371906e">set_path</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/hsujim/Desktop/workarea/gr-hsujim/include/hsujim/my_csv.h" line="49" column="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1hsujim_1_1my__csv_1a36dc52b549066244ea3e7e4666e0cb81" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int gr::hsujim::my_csv::path</definition>
+        <argsstring>()=0</argsstring>
+        <name>path</name>
+        <reimplementedby refid="classgr_1_1hsujim_1_1my__csv__impl_1a6078e5d53486c3a643ef15c89129206c">path</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/hsujim/Desktop/workarea/gr-hsujim/include/hsujim/my_csv.h" line="50" column="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::hsujim::my_csv</label>
+        <link refid="classgr_1_1hsujim_1_1my__csv"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>gr::hsujim::my_csv_impl</label>
+        <link refid="classgr_1_1hsujim_1_1my__csv__impl"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>gr::hsujim::my_csv</label>
+        <link refid="classgr_1_1hsujim_1_1my__csv"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/hsujim/Desktop/workarea/gr-hsujim/include/hsujim/my_csv.h" line="36" column="1" bodyfile="/home/hsujim/Desktop/workarea/gr-hsujim/include/hsujim/my_csv.h" bodystart="35" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classgr_1_1hsujim_1_1my__csv_1a03d0ee590c9190e8a2b913d25df31b61" prot="public" virt="non-virtual"><scope>gr::hsujim::my_csv</scope><name>make</name></member>
+      <member refid="classgr_1_1hsujim_1_1my__csv_1a36dc52b549066244ea3e7e4666e0cb81" prot="public" virt="pure-virtual"><scope>gr::hsujim::my_csv</scope><name>path</name></member>
+      <member refid="classgr_1_1hsujim_1_1my__csv_1ab952818386238311085a3bc3857758a3" prot="public" virt="pure-virtual"><scope>gr::hsujim::my_csv</scope><name>set_path</name></member>
+      <member refid="classgr_1_1hsujim_1_1my__csv_1a30f13ccf4056eeea4cb915f21626e6a8" prot="public" virt="non-virtual"><scope>gr::hsujim::my_csv</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

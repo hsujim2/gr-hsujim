@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="classgr_1_1hsujim_1_1my__csv" kind="class"><name>gr::hsujim::my_csv</name>
+    <member refid="classgr_1_1hsujim_1_1my__csv_1a30f13ccf4056eeea4cb915f21626e6a8" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1hsujim_1_1my__csv_1a03d0ee590c9190e8a2b913d25df31b61" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1hsujim_1_1my__csv_1ab952818386238311085a3bc3857758a3" kind="function"><name>set_path</name></member>
+    <member refid="classgr_1_1hsujim_1_1my__csv_1a36dc52b549066244ea3e7e4666e0cb81" kind="function"><name>path</name></member>
+  </compound>
+  <compound refid="classgr_1_1hsujim_1_1my__csv__impl" kind="class"><name>gr::hsujim::my_csv_impl</name>
+    <member refid="classgr_1_1hsujim_1_1my__csv__impl_1ab14a8f2e118e1ac0c0c412fddf987e40" kind="variable"><name>d_path</name></member>
+    <member refid="classgr_1_1hsujim_1_1my__csv__impl_1ab1c86aedd07ccfc0e6f08e26c666fc83" kind="function"><name>my_csv_impl</name></member>
+    <member refid="classgr_1_1hsujim_1_1my__csv__impl_1adaf43db9b7d87115a56fc17ac480584d" kind="function"><name>~my_csv_impl</name></member>
+    <member refid="classgr_1_1hsujim_1_1my__csv__impl_1acea54e845d847ade321c6f819371906e" kind="function"><name>set_path</name></member>
+    <member refid="classgr_1_1hsujim_1_1my__csv__impl_1a6078e5d53486c3a643ef15c89129206c" kind="function"><name>path</name></member>
+    <member refid="classgr_1_1hsujim_1_1my__csv__impl_1a862f9820d7dd6982075e4b735813d418" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1hsujim_1_1my__csv__impl_1a32d3c5637c3e14b2e7a34191ef5d0173" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1hsujim" kind="namespace"><name>gr::hsujim</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a7d61da8a8b49edc059c17b6fa2214af3" kind="define"><name>HSUJIM_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="my__csv_8h" kind="file"><name>my_csv.h</name>
+  </compound>
+  <compound refid="my__csv__impl_8h" kind="file"><name>my_csv_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_49e56c817e5e54854c35e136979f97ca" kind="dir"><name>docs</name>
+  </compound>
+  <compound refid="dir_359d2bec989c9a8deeeb9aee335c1c76" kind="dir"><name>doxygen</name>
+  </compound>
+  <compound refid="dir_e43008455c11cb87f1260e7fb7e7bda2" kind="dir"><name>hsujim</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_f2cd86917185299abf5a1f0679072f3c" kind="dir"><name>other</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

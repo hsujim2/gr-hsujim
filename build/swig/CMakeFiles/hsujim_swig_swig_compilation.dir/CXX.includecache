@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hsujim/Desktop/workarea/gr-hsujim/swig/hsujim_swig.i
+gnuradio.i
+/home/hsujim/Desktop/workarea/gr-hsujim/swig/gnuradio.i
+hsujim_swig_doc.i
+/home/hsujim/Desktop/workarea/gr-hsujim/swig/hsujim_swig_doc.i
+hsujim/my_csv.h
+/home/hsujim/Desktop/workarea/gr-hsujim/swig/hsujim/my_csv.h
+hsujim/my_csv.h
+/home/hsujim/Desktop/workarea/gr-hsujim/swig/hsujim/my_csv.h
+
