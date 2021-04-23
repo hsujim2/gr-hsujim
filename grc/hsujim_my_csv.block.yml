@@ -27,7 +27,7 @@ inputs:
 - label: input
   domain: stream
   dtype: complex
-  vlen: 52
+  vlen: 64
   multiplicity: '1'
 
 

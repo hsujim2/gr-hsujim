@@ -44,7 +44,7 @@ namespace gr {
      */
     my_csv_impl::my_csv_impl(int path)
       : gr::block("my_csv",
-              gr::io_signature::make(1, 1,52* sizeof(gr_complex)),
+              gr::io_signature::make(1, 1,64* sizeof(gr_complex)),
               gr::io_signature::make(0,0,0))
     {
       set_path(path);
@@ -80,15 +80,32 @@ namespace gr {
       const gr_complex *in = (const gr_complex *) input_items[0];
 
       // Do <+signal processing+>
-      std::string filepath = "/home/hsujim/Desktop/temp";
-      filepath = filepath + std::to_string(path())+".csv";
-      std::fstream fout(filepath);
-
-      for(int i=0;i<noutput_items;i++){
-        fout<<in[i]*gr_complex(10000,10000)<<",";
+      //std::cout<<*in;
+      //if(*in == gr_complex(1,0)){
+      //std::cout<<"find"<<path()<<std::endl;
+      
+      //std::cout<<*in<<std::endl;
+      // auto now = std::chrono::system_clock::now(); 
+      // auto now_ms = std::chrono::time_point_cast<std::chrono::milliseconds>(now); 
+      // auto epoch = now_ms.time_since_epoch(); 
+      // auto value = std::chrono::duration_cast<std::chrono::milliseconds>(epoch); 
+      // long duration = value.count(); 
+      // if((duration / 1000) < 500){
+      if(*(in) != gr_complex(0,0)){
+        std::string filepath = "/home/hsujim/Desktop/workarea/csv/temp";
+        filepath = filepath + std::to_string(path())+".csv";
+        std::fstream fout(filepath);
+        for(int i = 0;i<64;i++){
+          //std::cout << (in[i]*gr_complex(1000,0));
+          fout << *(in+i) << ",";
+          //fout << "in[i]*gr_complex(1000,0)" << ",";
+          //std::cout << (in[i]*gr_complex(1000,0))<< std::endl;
+        }
+        fout.close();
       }
-      std::cout<<"save channel estimation" << std::endl;
-      fout.close();
+      
+      //}
+      
       // Tell runtime system how many input items we consumed on
       // each input stream.
       consume_each (noutput_items);

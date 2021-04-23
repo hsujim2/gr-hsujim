@@ -39,7 +39,7 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so.v1.0-compat-xxx-xunknown"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so.2338e340"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so.1.0.0git"
       )
     if(EXISTS "${file}" AND
@@ -50,11 +50,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/hsujim/Desktop/workarea/gr-hsujim/build/lib/libgnuradio-hsujim.so.v1.0-compat-xxx-xunknown"
+    "/home/hsujim/Desktop/workarea/gr-hsujim/build/lib/libgnuradio-hsujim.so.2338e340"
     "/home/hsujim/Desktop/workarea/gr-hsujim/build/lib/libgnuradio-hsujim.so.1.0.0git"
     )
   foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so.v1.0-compat-xxx-xunknown"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so.2338e340"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so.1.0.0git"
       )
     if(EXISTS "${file}" AND

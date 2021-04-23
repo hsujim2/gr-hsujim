@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "libgnuradio-hsujim.pdb"
   "libgnuradio-hsujim.so"
   "libgnuradio-hsujim.so.1.0.0git"
-  "libgnuradio-hsujim.so.v1.0-compat-xxx-xunknown"
+  "libgnuradio-hsujim.so.2338e340"
 )
 
 # Per-language clean rules from dependency scanning.

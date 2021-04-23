@@ -79,7 +79,7 @@ hsujim_swig_EXTERNAL_OBJECTS =
 
 swig/_hsujim_swig.so: swig/CMakeFiles/hsujim_swig.dir/CMakeFiles/hsujim_swig.dir/hsujim_swigPYTHON_wrap.cxx.o
 swig/_hsujim_swig.so: swig/CMakeFiles/hsujim_swig.dir/build.make
-swig/_hsujim_swig.so: lib/libgnuradio-hsujim.so.v1.0-compat-xxx-xunknown
+swig/_hsujim_swig.so: lib/libgnuradio-hsujim.so.2338e340
 swig/_hsujim_swig.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
 swig/_hsujim_swig.so: /usr/local/lib/libgnuradio-runtime.so.3.8.2.0
 swig/_hsujim_swig.so: /usr/local/lib/libgnuradio-pmt.so.3.8.2.0
