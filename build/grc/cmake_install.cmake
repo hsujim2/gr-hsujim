@@ -1,4 +1,4 @@
-# Install script for directory: /home/hsujim/Desktop/workarea/gr-hsujim/grc
+# Install script for directory: /home/hsujim/workarea/gr-hsujim/grc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks" TYPE FILE FILES "/home/hsujim/Desktop/workarea/gr-hsujim/grc/hsujim_my_csv.block.yml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks" TYPE FILE FILES "/home/hsujim/workarea/gr-hsujim/grc/hsujim_my_csv.block.yml")
 endif()
 

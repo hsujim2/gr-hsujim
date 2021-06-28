@@ -1,4 +1,4 @@
-# Install script for directory: /home/hsujim/Desktop/workarea/gr-hsujim
+# Install script for directory: /home/hsujim/workarea/gr-hsujim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/hsujim" TYPE FILE FILES "/home/hsujim/Desktop/workarea/gr-hsujim/cmake/Modules/hsujimConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/hsujim" TYPE FILE FILES "/home/hsujim/workarea/gr-hsujim/cmake/Modules/hsujimConfig.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hsujim/Desktop/workarea/gr-hsujim/build/include/hsujim/cmake_install.cmake")
-  include("/home/hsujim/Desktop/workarea/gr-hsujim/build/lib/cmake_install.cmake")
-  include("/home/hsujim/Desktop/workarea/gr-hsujim/build/apps/cmake_install.cmake")
-  include("/home/hsujim/Desktop/workarea/gr-hsujim/build/docs/cmake_install.cmake")
-  include("/home/hsujim/Desktop/workarea/gr-hsujim/build/swig/cmake_install.cmake")
-  include("/home/hsujim/Desktop/workarea/gr-hsujim/build/python/cmake_install.cmake")
-  include("/home/hsujim/Desktop/workarea/gr-hsujim/build/grc/cmake_install.cmake")
+  include("/home/hsujim/workarea/gr-hsujim/build/include/hsujim/cmake_install.cmake")
+  include("/home/hsujim/workarea/gr-hsujim/build/lib/cmake_install.cmake")
+  include("/home/hsujim/workarea/gr-hsujim/build/apps/cmake_install.cmake")
+  include("/home/hsujim/workarea/gr-hsujim/build/docs/cmake_install.cmake")
+  include("/home/hsujim/workarea/gr-hsujim/build/swig/cmake_install.cmake")
+  include("/home/hsujim/workarea/gr-hsujim/build/python/cmake_install.cmake")
+  include("/home/hsujim/workarea/gr-hsujim/build/grc/cmake_install.cmake")
 
 endif()
 
@@ -61,5 +61,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hsujim/Desktop/workarea/gr-hsujim/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hsujim/workarea/gr-hsujim/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,58 +1,55 @@
-Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/hsujim/Desktop/workarea/gr-hsujim/build/CMakeFiles/CMakeTmp
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/hsujim/workarea/gr-hsujim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_ec784/fast && /usr/bin/make -f CMakeFiles/cmTC_ec784.dir/build.make CMakeFiles/cmTC_ec784.dir/build
-make[1]: Entering directory '/home/hsujim/Desktop/workarea/gr-hsujim/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ec784.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -std=gnu11 -o CMakeFiles/cmTC_ec784.dir/src.c.o   -c /home/hsujim/Desktop/workarea/gr-hsujim/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_ec784
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec784.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_ec784.dir/src.c.o  -o cmTC_ec784 
-/usr/bin/ld: CMakeFiles/cmTC_ec784.dir/src.c.o: in function `main':
-src.c:(.text+0x46): undefined reference to `pthread_create'
-/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
-/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+Run Build Command:"/usr/bin/make" "cmTC_f9957/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9957.dir/build.make CMakeFiles/cmTC_f9957.dir/build
+make[1]: Entering directory '/home/hsujim/workarea/gr-hsujim/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9957.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu11 -o CMakeFiles/cmTC_f9957.dir/CheckSymbolExists.c.o   -c /home/hsujim/workarea/gr-hsujim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f9957
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9957.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f9957.dir/CheckSymbolExists.c.o  -o cmTC_f9957 
+CMakeFiles/cmTC_f9957.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_ec784.dir/build.make:87: cmTC_ec784] Error 1
-make[1]: Leaving directory '/home/hsujim/Desktop/workarea/gr-hsujim/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_ec784/fast] Error 2
+CMakeFiles/cmTC_f9957.dir/build.make:97: recipe for target 'cmTC_f9957' failed
+make[1]: *** [cmTC_f9957] Error 1
+make[1]: Leaving directory '/home/hsujim/workarea/gr-hsujim/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f9957/fast' failed
+make: *** [cmTC_f9957/fast] Error 2
 
-
-Source file was:
+File /home/hsujim/workarea/gr-hsujim/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
 #include <pthread.h>
 
-void* test_func(void* data)
+int main(int argc, char** argv)
 {
-  return data;
-}
-
-int main(void)
-{
-  pthread_t thread;
-  pthread_create(&thread, NULL, test_func, NULL);
-  pthread_detach(thread);
-  pthread_join(thread, NULL);
-  pthread_atfork(NULL, NULL, NULL);
-  pthread_exit(NULL);
-
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
   return 0;
+#endif
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/hsujim/Desktop/workarea/gr-hsujim/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hsujim/workarea/gr-hsujim/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_b4367/fast && /usr/bin/make -f CMakeFiles/cmTC_b4367.dir/build.make CMakeFiles/cmTC_b4367.dir/build
-make[1]: Entering directory '/home/hsujim/Desktop/workarea/gr-hsujim/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b4367.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -std=gnu11 -o CMakeFiles/cmTC_b4367.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b4367
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4367.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b4367.dir/CheckFunctionExists.c.o  -o cmTC_b4367  -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_b7d70/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b7d70.dir/build.make CMakeFiles/cmTC_b7d70.dir/build
+make[1]: Entering directory '/home/hsujim/workarea/gr-hsujim/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7d70.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -std=gnu11 -o CMakeFiles/cmTC_b7d70.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b7d70
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7d70.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b7d70.dir/CheckFunctionExists.c.o  -o cmTC_b7d70 -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_b4367.dir/build.make:87: cmTC_b4367] Error 1
-make[1]: Leaving directory '/home/hsujim/Desktop/workarea/gr-hsujim/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_b4367/fast] Error 2
-
+CMakeFiles/cmTC_b7d70.dir/build.make:97: recipe for target 'cmTC_b7d70' failed
+make[1]: *** [cmTC_b7d70] Error 1
+make[1]: Leaving directory '/home/hsujim/workarea/gr-hsujim/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b7d70/fast' failed
+make: *** [cmTC_b7d70/fast] Error 2
 
 

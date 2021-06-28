@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/doxygen_target"
-  "html"
   "xml"
+  "html"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="namespacegr_1_1hsujim" kind="namespace" language="C++">
     <compoundname>gr::hsujim</compoundname>
     <innerclass refid="classgr_1_1hsujim_1_1my__csv" prot="public">gr::hsujim::my_csv</innerclass>
@@ -7,6 +7,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/hsujim/Desktop/workarea/gr-hsujim/include/hsujim/my_csv.h" line="28" column="18"/>
+    <location file="/home/hsujim/workarea/gr-hsujim/include/hsujim/my_csv.h" line="28" column="1"/>
   </compounddef>
 </doxygen>

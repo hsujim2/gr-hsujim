@@ -1,4 +1,4 @@
-# Install script for directory: /home/hsujim/Desktop/workarea/gr-hsujim/python
+# Install script for directory: /home/hsujim/workarea/gr-hsujim/python
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,13 +38,13 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/hsujim" TYPE FILE FILES "/home/hsujim/Desktop/workarea/gr-hsujim/python/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/hsujim" TYPE FILE FILES "/home/hsujim/workarea/gr-hsujim/python/__init__.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/hsujim" TYPE FILE FILES
-    "/home/hsujim/Desktop/workarea/gr-hsujim/build/python/__init__.pyc"
-    "/home/hsujim/Desktop/workarea/gr-hsujim/build/python/__init__.pyo"
+    "/home/hsujim/workarea/gr-hsujim/build/python/__init__.pyc"
+    "/home/hsujim/workarea/gr-hsujim/build/python/__init__.pyo"
     )
 endif()
 

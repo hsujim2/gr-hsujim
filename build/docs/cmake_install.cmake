@@ -1,4 +1,4 @@
-# Install script for directory: /home/hsujim/Desktop/workarea/gr-hsujim/docs
+# Install script for directory: /home/hsujim/workarea/gr-hsujim/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hsujim/Desktop/workarea/gr-hsujim/build/docs/doxygen/cmake_install.cmake")
+  include("/home/hsujim/workarea/gr-hsujim/build/docs/doxygen/cmake_install.cmake")
 
 endif()
 

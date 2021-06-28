@@ -1,4 +1,4 @@
-# Install script for directory: /home/hsujim/Desktop/workarea/gr-hsujim/include/hsujim
+# Install script for directory: /home/hsujim/workarea/gr-hsujim/include/hsujim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/hsujim" TYPE FILE FILES
-    "/home/hsujim/Desktop/workarea/gr-hsujim/include/hsujim/api.h"
-    "/home/hsujim/Desktop/workarea/gr-hsujim/include/hsujim/my_csv.h"
+    "/home/hsujim/workarea/gr-hsujim/include/hsujim/api.h"
+    "/home/hsujim/workarea/gr-hsujim/include/hsujim/my_csv.h"
     )
 endif()
 

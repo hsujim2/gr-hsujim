@@ -1,4 +1,4 @@
-# Install script for directory: /home/hsujim/Desktop/workarea/gr-hsujim/lib
+# Install script for directory: /home/hsujim/workarea/gr-hsujim/lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,9 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so.2338e340"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so.4d5bfe8e"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so.1.0.0git"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so"
       )
     if(EXISTS "${file}" AND
        NOT IS_SYMLINK "${file}")
@@ -50,12 +51,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/hsujim/Desktop/workarea/gr-hsujim/build/lib/libgnuradio-hsujim.so.2338e340"
-    "/home/hsujim/Desktop/workarea/gr-hsujim/build/lib/libgnuradio-hsujim.so.1.0.0git"
+    "/home/hsujim/workarea/gr-hsujim/build/lib/libgnuradio-hsujim.so.4d5bfe8e"
+    "/home/hsujim/workarea/gr-hsujim/build/lib/libgnuradio-hsujim.so.1.0.0git"
+    "/home/hsujim/workarea/gr-hsujim/build/lib/libgnuradio-hsujim.so"
     )
   foreach(file
-      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so.2338e340"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so.4d5bfe8e"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so.1.0.0git"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so"
       )
     if(EXISTS "${file}" AND
        NOT IS_SYMLINK "${file}")
@@ -71,30 +74,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so"
-         RPATH "")
-  endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/hsujim/Desktop/workarea/gr-hsujim/build/lib/libgnuradio-hsujim.so")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so"
-         OLD_RPATH "/usr/local/lib:"
-         NEW_RPATH "")
-    if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libgnuradio-hsujim.so")
-    endif()
-  endif()
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/hsujim/gnuradio-hsujimTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/hsujim/gnuradio-hsujimTargets.cmake"
-         "/home/hsujim/Desktop/workarea/gr-hsujim/build/lib/CMakeFiles/Export/lib/cmake/hsujim/gnuradio-hsujimTargets.cmake")
+         "/home/hsujim/workarea/gr-hsujim/build/lib/CMakeFiles/Export/lib/cmake/hsujim/gnuradio-hsujimTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/hsujim/gnuradio-hsujimTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -103,13 +86,13 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/hsujim" TYPE FILE FILES "/home/hsujim/Desktop/workarea/gr-hsujim/build/lib/CMakeFiles/Export/lib/cmake/hsujim/gnuradio-hsujimTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/hsujim" TYPE FILE FILES "/home/hsujim/workarea/gr-hsujim/build/lib/CMakeFiles/Export/lib/cmake/hsujim/gnuradio-hsujimTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/hsujim" TYPE FILE FILES "/home/hsujim/Desktop/workarea/gr-hsujim/build/lib/CMakeFiles/Export/lib/cmake/hsujim/gnuradio-hsujimTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/hsujim" TYPE FILE FILES "/home/hsujim/workarea/gr-hsujim/build/lib/CMakeFiles/Export/lib/cmake/hsujim/gnuradio-hsujimTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/hsujim" TYPE FILE FILES "/home/hsujim/Desktop/workarea/gr-hsujim/build/lib/cmake/Modules/gnuradio-hsujimConfig.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/hsujim" TYPE FILE FILES "/home/hsujim/workarea/gr-hsujim/build/lib/cmake/Modules/gnuradio-hsujimConfig.cmake")
 endif()
 

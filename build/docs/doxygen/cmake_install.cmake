@@ -1,4 +1,4 @@
-# Install script for directory: /home/hsujim/Desktop/workarea/gr-hsujim/docs/doxygen
+# Install script for directory: /home/hsujim/workarea/gr-hsujim/docs/doxygen
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,8 +39,8 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/gr-hsujim" TYPE DIRECTORY FILES
-    "/home/hsujim/Desktop/workarea/gr-hsujim/build/docs/doxygen/xml"
-    "/home/hsujim/Desktop/workarea/gr-hsujim/build/docs/doxygen/html"
+    "/home/hsujim/workarea/gr-hsujim/build/docs/doxygen/xml"
+    "/home/hsujim/workarea/gr-hsujim/build/docs/doxygen/html"
     )
 endif()
 

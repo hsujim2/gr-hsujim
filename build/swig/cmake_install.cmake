@@ -1,4 +1,4 @@
-# Install script for directory: /home/hsujim/Desktop/workarea/gr-hsujim/swig
+# Install script for directory: /home/hsujim/workarea/gr-hsujim/swig
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/hsujim/_hsujim_swig.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/hsujim" TYPE MODULE FILES "/home/hsujim/Desktop/workarea/gr-hsujim/build/swig/_hsujim_swig.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/hsujim" TYPE MODULE FILES "/home/hsujim/workarea/gr-hsujim/build/swig/_hsujim_swig.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/hsujim/_hsujim_swig.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/hsujim/_hsujim_swig.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/hsujim/_hsujim_swig.so"
-         OLD_RPATH "/home/hsujim/Desktop/workarea/gr-hsujim/build/lib:/usr/local/lib:"
+         OLD_RPATH "/home/hsujim/workarea/gr-hsujim/build/lib:/usr/local/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/hsujim/_hsujim_swig.so")
@@ -58,20 +58,20 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/hsujim" TYPE FILE FILES "/home/hsujim/Desktop/workarea/gr-hsujim/build/swig/hsujim_swig.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/hsujim" TYPE FILE FILES "/home/hsujim/workarea/gr-hsujim/build/swig/hsujim_swig.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/hsujim" TYPE FILE FILES
-    "/home/hsujim/Desktop/workarea/gr-hsujim/build/swig/hsujim_swig.pyc"
-    "/home/hsujim/Desktop/workarea/gr-hsujim/build/swig/hsujim_swig.pyo"
+    "/home/hsujim/workarea/gr-hsujim/build/swig/hsujim_swig.pyc"
+    "/home/hsujim/workarea/gr-hsujim/build/swig/hsujim_swig.pyo"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/hsujim/hsujim/swig" TYPE FILE FILES
-    "/home/hsujim/Desktop/workarea/gr-hsujim/swig/hsujim_swig.i"
-    "/home/hsujim/Desktop/workarea/gr-hsujim/build/swig/hsujim_swig_doc.i"
+    "/home/hsujim/workarea/gr-hsujim/swig/hsujim_swig.i"
+    "/home/hsujim/workarea/gr-hsujim/build/swig/hsujim_swig_doc.i"
     )
 endif()
 

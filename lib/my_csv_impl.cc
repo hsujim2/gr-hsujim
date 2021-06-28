@@ -80,19 +80,8 @@ namespace gr {
       const gr_complex *in = (const gr_complex *) input_items[0];
 
       // Do <+signal processing+>
-      //std::cout<<*in;
-      //if(*in == gr_complex(1,0)){
-      //std::cout<<"find"<<path()<<std::endl;
-      
-      //std::cout<<*in<<std::endl;
-      // auto now = std::chrono::system_clock::now(); 
-      // auto now_ms = std::chrono::time_point_cast<std::chrono::milliseconds>(now); 
-      // auto epoch = now_ms.time_since_epoch(); 
-      // auto value = std::chrono::duration_cast<std::chrono::milliseconds>(epoch); 
-      // long duration = value.count(); 
-      // if((duration / 1000) < 500){
       if(*(in) != gr_complex(0,0)){
-        std::string filepath = "/home/hsujim/Desktop/workarea/csv/temp";
+        std::string filepath = "~/workarea/csv/temp";
         filepath = filepath + std::to_string(path())+".csv";
         std::fstream fout(filepath);
         for(int i = 0;i<64;i++){

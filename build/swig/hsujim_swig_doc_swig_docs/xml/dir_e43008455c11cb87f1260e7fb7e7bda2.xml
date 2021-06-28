@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="dir_e43008455c11cb87f1260e7fb7e7bda2" kind="dir">
     <compoundname>hsujim</compoundname>
     <innerfile refid="api_8h">api.h</innerfile>
@@ -8,6 +8,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/hsujim/Desktop/workarea/gr-hsujim/include/hsujim/"/>
+    <location file="/home/hsujim/workarea/gr-hsujim/include/hsujim/"/>
   </compounddef>
 </doxygen>
